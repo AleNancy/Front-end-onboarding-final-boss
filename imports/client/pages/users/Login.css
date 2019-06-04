@@ -1,0 +1,65 @@
+
+input {
+    height: 65px;
+    width: 409px;
+    border-radius: 10px;
+    background-color: #ebebeb;
+    border: 1px white solid;
+    margin-bottom: 35px;
+}
+
+button {
+    font-family: 'Gadugi', sans-serif;
+    font-size: 18px;
+    height: 65px;
+    width: 104px;
+    background-color: #00bff3;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: grab;
+}
+
+table {
+   width: 409px;
+   background-color: #8781bd;
+   border-radius: 10px;
+   padding-left: 31px;
+}
+
+.button-Sign-in {
+    width: 104px;
+}
+
+label {
+    display: none;  
+}
+
+.cc-main h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin-right: 6px;    
+}
+
+.Sign-in .forgot p { 
+    font-family: 'Gadugi', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.cc-main .donut-Login {
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.cc-main ::placeholder {
+    font-family: 'Gadugi', sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.donut-Login p {
+    font-size: 18px;
+    color: white;
+}

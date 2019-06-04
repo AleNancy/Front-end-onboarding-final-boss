@@ -1,0 +1,21 @@
+.Login-Register {
+    height: 1080px;
+    width: 1920px;
+    background-color: #f7f6f6;
+    margin-top: 62px;
+}
+
+.Login-Register-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 226px;
+}
+
+.cc-main {
+    margin-right: 162px;
+}
+
+.Home {
+    width: 1920px;
+    height: 7000px;
+}

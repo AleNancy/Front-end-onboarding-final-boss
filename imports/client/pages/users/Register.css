@@ -1,0 +1,35 @@
+.main-Register button {
+    background-color: #00bff3;
+    border-radius: 10px;
+    height: 65px;
+    width: 409px;
+    border: none;
+    color: white;
+    font-family: 'Gadugi', sans-serif;
+    font-size: 18px;
+
+}
+
+.main-Register ::placeholder{
+    font-family: 'Gadugi', sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.main-Register .donut-Register {
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.main-Register h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin-right: 6px;    
+}
+
+.main-Register p { 
+    font-family: 'Gadugi', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+

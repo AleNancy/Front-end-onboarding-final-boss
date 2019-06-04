@@ -1,0 +1,73 @@
+.Presentation-donuts {
+    height: 1111px;
+    background-color: #f6f7f9;
+}
+
+.Presentation-donuts-text h1 {
+    color: #fec342;
+    font-family: 'Gadugi', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.Presentation-donuts-text p {
+    font-family: 'Gadugi', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 27px;
+    text-align: justify;
+}
+
+.Presentation-donuts-text {
+    margin-left: 192px;
+    width: 581px;
+    margin-top: 466px;
+    margin-bottom: 164px;
+}
+
+.arrowBtn {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 254px;
+    cursor: -webkit-grab; 
+    cursor: grab;
+  }
+
+  .arrowBtn::before, .arrowBtn::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    border-right: 5px solid #fec342;
+    border-bottom: 5px solid #fec342;
+    border-radius: 2.5px;
+    width: 20px;
+    height: 20px;
+    transform-origin: top left;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    opacity: 0;
+  }
+  .arrowBtn::before {
+      animation: arrowMove 2s 1s ease-in-out infinite;
+    }
+
+  .arrowBtn::after {
+      animation: arrowMove 2s ease-in-out infinite;
+    }
+  @keyframes arrowMove {
+    0% {
+      top: 0;
+      opacity: 0;
+    }
+    50% {opacity: 1;}
+    100% {
+      top: 60%;
+      opacity: 0;
+    }
+  }
+  

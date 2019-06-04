@@ -1,0 +1,76 @@
+.donut-contact {
+    background-color: white;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.donut-contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.donut-contact-container p {
+    font-family: 'Gadugi', sans-serif;
+    font-weight: 700;
+    color: #aca8a8;
+    font-size: 36px;
+    text-align: justify;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.phone-button {
+    margin-left: 995px;
+}
+
+.phone-button p {
+    color: #f3c620;
+    font-family: 'Gadugi', sans-serif;
+    font-weight: 700;
+
+}
+
+.Email-button {
+    background-color: #f06eaa;
+}
+
+.Email-button input {
+    background-color: #f06eaa;
+    border: none;
+}
+
+.Email-button button {
+    background-color: #ecc755;
+    width: 177px;
+    height: 100px;
+}
+
+.donut-trademark {
+    display: flex;
+    margin-top: 348px;
+    margin-left: 500px;
+}
+
+.donut-trademark p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ecc755;
+    
+}
+
+.donut-trademark h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ecc755;
+    margin-left: 391px;
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.description-contact {
+    display: flex;
+}

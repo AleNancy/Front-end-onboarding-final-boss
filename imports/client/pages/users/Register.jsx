@@ -1,6 +1,7 @@
 import React from 'react';
 import {AutoForm, AutoField, ErrorField} from 'uniforms-unstyled';
 import SimpleSchema from 'simpl-schema';
+import './Register.css';
 
 class Register extends React.Component {
     constructor() {
@@ -26,19 +27,30 @@ class Register extends React.Component {
 
     render() {
         return (
-            <main>
+            <main className="main-Register">
+
+                <div className="donut-Register">
+
+                    <h1>donut</h1>
+                    <p>Register</p>
+
+                </div>
+
                 <AutoForm schema={RegisterSchema} onSubmit={this.onSubmit}>
-                    <AutoField name="email"/>
+
+                    <input name="name" type="text" placeholder="Name"></input>
+
+                    <AutoField name="email" type="text" placeholder="Email"/>
                     <ErrorField name="email"/>
 
-                    <AutoField name="password" type="password"/>
+                    <AutoField name="password" type="password" placeholder="Password"/>
                     <ErrorField name="password"/>
 
-                    <AutoField name="confirm_password" type="password"/>
+                    <AutoField name="confirm_password" type="password" placeholder="Re-enter Password"/>
                     <ErrorField name="confirm_password"/>
 
                     <button type="submit">
-                        Register
+                        Sign up
                     </button>
                 </AutoForm>
             </main>

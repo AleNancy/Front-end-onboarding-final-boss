@@ -1,6 +1,7 @@
 import React from 'react';
 import {AutoForm, AutoField, ErrorField} from 'uniforms-unstyled';
 import SimpleSchema from 'simpl-schema';
+import './Login.css';
 
 class Login extends React.Component {
     constructor() {
@@ -22,16 +23,30 @@ class Login extends React.Component {
     render() {
         return (
             <main className="cc-main">
+
+                <div className="donut-Login">
+
+                    <h1>donut</h1>
+                    <p>Login</p>
+
+                </div>
+
                 <AutoForm schema={LoginSchema} onSubmit={this.onSubmit}>
-                    <AutoField name="email"/>
+                    <AutoField name="email" type="text" placeholder="Email"/>
                     <ErrorField name="email"/>
 
-                    <AutoField name="password" type="password"/>
+                    <AutoField name="password" type="password" placeholder="Password"/>
                     <ErrorField name="password"/>
 
-                    <button type="submit">
-                        Login
-                    </button>
+                    <table className="Sign-in">
+
+                        <tr className="forgot">
+                            <th><p>Forgot your password!</p></th>
+                            <th className="button-Sign-in"><button type="submit">Sign in</button></th>
+                        </tr>
+                        
+                    </table>
+
                 </AutoForm>
             </main>
         )

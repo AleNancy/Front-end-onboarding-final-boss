@@ -1,0 +1,37 @@
+.TextDescription {
+    height: 561px;
+    background-color: #ebebee;
+
+}
+
+.TextDescriptionContainer h1 {
+    color: #fec342;
+    font-family: 'Gadugi', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    text-align: justify;
+    
+}
+
+.TextDescriptionContainer p {
+    color: black;
+    font-family: 'Gadugi', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.TextDescriptionContainer .h3-p3 {
+    background-color: #e7e5e5;
+
+}
+
+.TextDescriptionContainer {
+    display: flex;
+    height: 100%;
+}
+
+.TextDescriptionContainer .h3-p3, .h2-p2, .h1-p1 {
+    padding: 50px 50px;
+}

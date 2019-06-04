@@ -1,0 +1,121 @@
+.ListsDonuts {
+    background-color: #f7f6f6;
+    height: 2068px;
+}
+
+.five-donuts .first-donut,.second-donut,.third-donut,.fourth-donut,.fifth-donut {
+    height: 107px;
+    width: 1142px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 5px 6px 85px -17px rgba(0,0,0,0.76);
+    margin-left: 391px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.five-donuts {
+    padding-top: 172px;
+}
+
+.five-donuts img {
+    padding-right: 39px;
+}
+
+ h1 {
+    font-family: 'Gadugi', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.information p {
+    font-family: 'Gadugi', sans-serif;
+    font-size: 18x;
+    font-weight: 400;
+}
+
+.information {
+    margin-right: 374px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    font-family: 'Gadugi', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #004a80;
+}
+
+.dollar {
+    color: #004a80;
+    border: 3px solid #004a80;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 22px;
+    margin-right: 80px;
+    font-weight: 700;
+}
+
+.price-donut-button {
+    display: flex;
+    align-items: center;
+}
+
+.price-donut-button button {
+    margin-right: 53px;
+}
+
+span {
+    font-size: 30px;
+    color: red;
+}
+ .fa {
+     font-size: 30px;
+     margin-right: 53px;
+ }
+
+.first-donut-box,.second-donut-box,.third-donut-box {
+     width: 379px;
+     height: 365px;
+     border-radius: 40px;
+     background-color: white;
+     box-shadow: 5px 6px 85px -17px rgba(0,0,0,0.76);
+     display: flex;
+     align-items: center;
+     margin-right: 15px;
+ }
+
+ .three-donuts {
+     display: flex;
+     justify-content: center;
+     margin-top: 168px;
+ }
+
+ .first-donut-box-container,.second-donut-box-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 46px;
+ }
+
+ .price-donut-button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .information1 h1, p {
+    text-align: center;
+ }
+
+ .price-donut {
+    margin-left: 96px;
+    display: flex;
+    align-items: center;
+ }

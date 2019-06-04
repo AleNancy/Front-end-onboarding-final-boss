@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 1920px;
+}
+
+.donut-bar {
+    display: flex;
+    background-color: #fbaf5d;
+    height: 100px;
+    padding: 0px;
+    box-shadow: 5px 6px 85px -17px rgba(0,0,0,0.76);
+}
+
+.donut-bar p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+
+.donut-bar h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin-left: 391px;
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 700;
+}
